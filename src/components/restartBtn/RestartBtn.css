@@ -7,7 +7,6 @@
   box-shadow: 2px 2px gray;
 }
 .btn-restart:hover {
-  font-weight: 800;
   background-color: blueviolet;
   color: #fff;
 }
