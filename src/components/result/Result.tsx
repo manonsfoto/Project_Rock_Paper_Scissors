@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { TInput } from "../../interfaces/TInput";
 import "./Result.css";
+import paper from "../../../public/img/paper.png";
+import rock from "../../../public/img/rock.png";
+import scissors from "../../../public/img/scissors.png";
 
 interface Props {
   inputYou: "" | TInput;
@@ -60,11 +63,11 @@ const Result: React.FC<Props> = ({ inputYou, inputCPU, result, setResult }) => {
   const displayImg = (whichInput: "" | TInput) => {
     switch (whichInput) {
       case 0:
-        return <img src="public/img/rock.png" alt="Rock" />;
+        return <img src={rock} alt="Rock" />;
       case 1:
-        return <img src="public/img/paper.png" alt="Paper" />;
+        return <img src={paper} alt="Paper" />;
       case 2:
-        return <img src="public/img/scissors.png" alt="Scissors" />;
+        return <img src={scissors} alt="Scissors" />;
     }
   };
 
