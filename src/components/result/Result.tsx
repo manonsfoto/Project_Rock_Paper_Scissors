@@ -57,7 +57,7 @@ const Result: React.FC<Props> = ({ inputYou, inputCPU, result, setResult }) => {
       }
     };
     const newResult: string | undefined = getResult();
-    setResult(() => (newResult ? newResult : ""));
+    setResult(() => (newResult ? newResult : "Choose your weapon."));
   }, [inputYou, inputCPU, setResult]);
 
   const displayImg = (whichInput: "" | TInput) => {
