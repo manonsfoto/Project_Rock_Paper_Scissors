@@ -1,0 +1,19 @@
+.btn-wrapper {
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.btn-wrapper button {
+  width: fit-content;
+  height: fit-content;
+  font-size: 2rem;
+  border: none;
+  box-shadow: 2px 2px gray;
+  border-radius: 5rem;
+
+  cursor: pointer;
+}
+.btn-wrapper button:hover {
+  background-color: rgb(89, 255, 158);
+  box-shadow: 2px 2px rgb(235, 135, 215);
+}

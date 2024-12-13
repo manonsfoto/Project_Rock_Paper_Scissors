@@ -18,7 +18,7 @@ const GameInput: React.FC<Props> = ({ setInputYou, setInputCPU, inputYou }) => {
   };
 
   return (
-    <div>
+    <div className="btn-wrapper flex">
       <button
         type="button"
         value={inputYou}

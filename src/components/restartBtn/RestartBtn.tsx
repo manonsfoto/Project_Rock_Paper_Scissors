@@ -3,7 +3,11 @@ import "./RestartBtn.css";
 const RestartBtn = () => {
   return (
     <>
-      <button type="button" onClick={() => location.reload()}>
+      <button
+        className="btn-restart"
+        type="button"
+        onClick={() => location.reload()}
+      >
         restart game
       </button>
     </>

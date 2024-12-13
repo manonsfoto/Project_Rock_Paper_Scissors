@@ -12,11 +12,10 @@ const Home = () => {
 
   return (
     <>
-      <header>
+      <header className="flex">
         <h1>Rock Paper Scissors</h1>
-        <h3>Choose your weapon</h3>
       </header>
-      <main>
+      <main className="flex">
         <Result
           inputCPU={inputCPU}
           inputYou={inputYou}
