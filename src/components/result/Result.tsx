@@ -60,11 +60,11 @@ const Result: React.FC<Props> = ({ inputYou, inputCPU, result, setResult }) => {
   const displayImg = (whichInput: "" | TInput) => {
     switch (whichInput) {
       case 0:
-        return <img src="/public/img/rock.png" alt="Rock" />;
+        return <img src="public/img/rock.png" alt="Rock" />;
       case 1:
-        return <img src="/public/img/paper.png" alt="Paper" />;
+        return <img src="public/img/paper.png" alt="Paper" />;
       case 2:
-        return <img src="/public/img/scissors.png" alt="Scissors" />;
+        return <img src="public/img/scissors.png" alt="Scissors" />;
     }
   };
 
